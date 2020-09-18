@@ -57,7 +57,7 @@ function Img({ src, mouseX, url }) {
 
   return (
     <motion.img
-      onClick={() => window.open(`https:/${url}`, "_blank")}
+      onClick={() => window.open(`https://${url}`, "_blank")}
       ref={ref}
       src={src}
       className="icon"
